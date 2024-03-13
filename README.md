@@ -1,14 +1,21 @@
 ##Football Player Management System
-Overview
+
+
+
+OVERVIEW
 This project is a simple football player management system built using React. It allows users to view a list of football players along with their details such as name, age, team, nationality, and jersey number.
 
 Components
 App Component
+
 Description: The main component of the application.
 File: App.js
+
 Dependencies: React
 PlayerList Component
+
 Description: Displays a list of football players.
+
 File: PlayerList.js
 Dependencies: React, Player Component
 Player Component
