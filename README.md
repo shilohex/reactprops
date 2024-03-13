@@ -1,8 +1,40 @@
-# React + Vite
+##Football Player Management System
+Overview
+This project is a simple football player management system built using React. It allows users to view a list of football players along with their details such as name, age, team, nationality, and jersey number.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Components
+App Component
+Description: The main component of the application.
+File: App.js
+Dependencies: React
+PlayerList Component
+Description: Displays a list of football players.
+File: PlayerList.js
+Dependencies: React, Player Component
+Player Component
+Description: Represents a single football player.
+File: Player.js
+Dependencies: React
+Installation
+Clone the repository:
+bash
+Copy code
+git clone <"https://github.com/shilohex/reactprops">
+Navigate to the project directory:
+bash
+Copy code
+cd football-player-management-system
+Install dependencies:
+Copy code
+npm install
+Usage
+To start the development server and view the application, run the following command:
 
-Currently, two official plugins are available:
+sql
+Copy code
+npm start
+Credits
+This project was created by [EXCEL(shilohex)].
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+License
+This project is licensed under the MIT License.
