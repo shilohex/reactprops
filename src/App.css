@@ -1,0 +1,34 @@
+/* import React from "react";
+import players from "../players";
+import Player from "../Player";
+
+const PlayerList = () => {
+  return (
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        margin: "20vh",
+        gap: "15px",
+        backgroundColor: "lightblue",
+        border: "3px solid lightblue",
+        padding: "30px",
+        borderRadius: "20px",
+        textDecorationColor: "darkblue",
+      }}
+    >
+      {players.map((indplayer) => (
+        <Player
+          name={indplayer.name}
+          age={indplayer.age}
+          image={indplayer.image}
+          nationality={indplayer.nationality}
+          jnumber={indplayer.jnumber}
+          team={indplayer.team}
+        />
+      ))}
+    </div>
+  );
+};
+
+export default PlayerList; */
